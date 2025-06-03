@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_765194af156b3f7e05b3a9616e3a0a4a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_765194af156b3f7e05b3a9616e3a0a4a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_765194af156b3f7e05b3a9616e3a0a4a = L.map(
+                "map_765194af156b3f7e05b3a9616e3a0a4a",
+                {
+                    center: [45.7465, 4.8435],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b22f3fde09786fdeedc163f54bac741e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+            var marker_b2f7c498a49a5536932576a8b5a48db1 = L.marker(
+                [45.7488, 4.8458],
+                {}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+        var popup_428c2bf84e1a46fb05f6501c06c04552 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_08a229cdd431cfd2e15c5e4597be44c8 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxiPlN0YXJ0ICYgRW5kIOKAkyBNYWlzb24gZGVzIMOJdHVkaWFudHM8L2I+PGJyPgogICAgT3VyIG1lZXRpbmcgcG9pbnQgYW5kIGZpbmFsIHN0b3AuIFRoaXMgc3R1ZGVudCBodWIgaXMgdGhlIGhlYXJ0IG9mIG1hbnkgY3JlYXRpdmUgaW5pdGlhdGl2ZXMuPGJyPgogICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cubHlvbmNhbXB1cy5jb20vcy1pbXBsaXF1ZXIvbGEtbWFpc29uLWRlcy1ldHVkaWFudHMtZGUtbGEtbWV0cm9wb2xlLWRlLWx5b24iIHRhcmdldD0iX2JsYW5rIj5MZWFybiBtb3JlIGFib3V0IHRoaXMgYXJ0d29yazwvYT48YnI+CiAgICA8aW1nIHNyYz0iaHR0cHM6Ly90c2UzLm1tLmJpbmcubmV0L3RoP2lkPU9JUC44Z1JCNkNUNTZ2UWlzN2p1UlREeHd3SGFFMCZwaWQ9QXBpIiB3aWR0aD0iMjAwIj4KICAgIA==" width="230" style="border:none !important;" height="270"></iframe>`)[0];
+            popup_428c2bf84e1a46fb05f6501c06c04552.setContent(i_frame_08a229cdd431cfd2e15c5e4597be44c8);
+        
+
+        marker_b2f7c498a49a5536932576a8b5a48db1.bindPopup(popup_428c2bf84e1a46fb05f6501c06c04552)
+        ;
+
+        
+    
+    
+            marker_b2f7c498a49a5536932576a8b5a48db1.bindTooltip(
+                `<div>
+                     Start & End – Maison des Étudiants
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d500039a332270b0f0090cff2b0ebc5e = L.marker(
+                [45.7485, 4.8432],
+                {}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+        var popup_01d9011650e9e35cc8b3372e36269f9e = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_4dbdd2affc07279d7c9e05802a93b6fd = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxiPlN0b3AgMSDigJMgUnVlIGRlIE1hcnNlaWxsZTwvYj48YnI+CiAgICBTcG90IHN0cmVldC1sZXZlbCBzdGVuY2lscyBhbmQgcG9ldGljIG1pbmktbWVzc2FnZXMgb24gcG9sZXMsIGJveGVzLCBhbmQgd2FsbHMuPGJyPgogICAgPGEgaHJlZj0iaHR0cHM6Ly9zdHJlZXQtYXJ0LWx5b24uY29tLzI0LzA1LzIwMTcvY2xvdW4tcnVlLW1hcnNlaWxsZS1seW9uLTdlLyIgdGFyZ2V0PSJfYmxhbmsiPkxlYXJuIG1vcmUgYWJvdXQgdGhpcyBhcnR3b3JrPC9hPjxicj4KICAgIDxpbWcgc3JjPSJodHRwczovL3N0cmVldC1hcnQtbHlvbi5jb20vMjQvMDUvMjAxNy9jbG91bi1ydWUtbWFyc2VpbGxlLWx5b24tN2Uvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDUvY2xvdW4tbHlvbjctcnVlLW1hcnNlaWxsZS0zLmpwZyIgd2lkdGg9IjIwMCI+CiAgICA=" width="230" style="border:none !important;" height="270"></iframe>`)[0];
+            popup_01d9011650e9e35cc8b3372e36269f9e.setContent(i_frame_4dbdd2affc07279d7c9e05802a93b6fd);
+        
+
+        marker_d500039a332270b0f0090cff2b0ebc5e.bindPopup(popup_01d9011650e9e35cc8b3372e36269f9e)
+        ;
+
+        
+    
+    
+            marker_d500039a332270b0f0090cff2b0ebc5e.bindTooltip(
+                `<div>
+                     Stop 1 – Rue de Marseille
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e561fcb309f10e1279e3c17ee132274c = L.marker(
+                [45.7457, 4.8437],
+                {}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+        var popup_a65a74fc84814ced500bbe8dd70ca27f = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_08c753a8d5cb4803157faac2a4752ff8 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxiPlN0b3AgMiDigJMgUnVlIENoZXZyZXVsPC9iPjxicj4KICAgIFNlZSB2aWJyYW50IG11cmFscyBieSBhcnRpc3RzIGxpa2UgRG9uIE1hdGVvLCBmdWxsIG9mIHN5bWJvbGlzbSBhbmQgY29sb3IuPGJyPgogICAgPGEgaHJlZj0iaHR0cHM6Ly9zdHJlZXQtYXJ0LWx5b24uY29tLzA1LzEyLzIwMjIvbW9uc2lldXJncmFuZGdyYW5ncmFuZC1ydWUtY2hldnJldWwtbHlvbi03ZS8iIHRhcmdldD0iX2JsYW5rIj5MZWFybiBtb3JlIGFib3V0IHRoaXMgYXJ0d29yazwvYT48YnI+CiAgICA8aW1nIHNyYz0iaHR0cHM6Ly9zdHJlZXQtYXJ0LWx5b24uY29tLzA1LzEyLzIwMjIvbW9uc2lldXJncmFuZGdyYW5ncmFuZC1ydWUtY2hldnJldWwtbHlvbi03ZS93cC1jb250ZW50L3VwbG9hZHMvMjAyMi8xMi9tb25zaWV1cmdyYW5kZ3JhbmdyYW5kLWNoZXZyZXVsLWx5b243LTIuanBnIiB3aWR0aD0iMjAwIj4KICAgIA==" width="230" style="border:none !important;" height="270"></iframe>`)[0];
+            popup_a65a74fc84814ced500bbe8dd70ca27f.setContent(i_frame_08c753a8d5cb4803157faac2a4752ff8);
+        
+
+        marker_e561fcb309f10e1279e3c17ee132274c.bindPopup(popup_a65a74fc84814ced500bbe8dd70ca27f)
+        ;
+
+        
+    
+    
+            marker_e561fcb309f10e1279e3c17ee132274c.bindTooltip(
+                `<div>
+                     Stop 2 – Rue Chevreul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df9fdc5f79ea60a07887f583d9425fb5 = L.marker(
+                [45.7449, 4.8443],
+                {}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+        var popup_53271397a7d330932f9b2bb5913294e8 = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_56141c68e69b2271165846f3161021f1 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxiPlN0b3AgMyDigJMgUnVlIE1vbnRlc3F1aWV1PC9iPjxicj4KICAgIERpc2NvdmVyIGNhcnRvb24tc3R5bGUgZnJlc2NvcyBsaWtlIHRoZSBTbm9ya2llcyBieSBOYWxpZCAmIFNrZW8uPGJyPgogICAgPGEgaHJlZj0iaHR0cHM6Ly9zdHJlZXQtYXJ0LWx5b24uY29tLzIxLzAyLzIwMTkvbGVzLXNub3JraWVzLWRlLW5hbGlkLWV0LXNrZW8tcnVlLW1vbnRlc3F1aWV1LWx5b24tN2UvIiB0YXJnZXQ9Il9ibGFuayI+TGVhcm4gbW9yZSBhYm91dCB0aGlzIGFydHdvcms8L2E+PGJyPgogICAgPGltZyBzcmM9Imh0dHBzOi8vc3RyZWV0LWFydC1seW9uLmNvbS8yMS8wMi8yMDE5L2xlcy1zbm9ya2llcy1kZS1uYWxpZC1ldC1za2VvLXJ1ZS1tb250ZXNxdWlldS1seW9uLTdlL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE5LzAyL3Nub3JraWVzLW5hbGlkLXNrZW8tbHlvbjctMi5qcGciIHdpZHRoPSIyMDAiPgogICAg" width="230" style="border:none !important;" height="270"></iframe>`)[0];
+            popup_53271397a7d330932f9b2bb5913294e8.setContent(i_frame_56141c68e69b2271165846f3161021f1);
+        
+
+        marker_df9fdc5f79ea60a07887f583d9425fb5.bindPopup(popup_53271397a7d330932f9b2bb5913294e8)
+        ;
+
+        
+    
+    
+            marker_df9fdc5f79ea60a07887f583d9425fb5.bindTooltip(
+                `<div>
+                     Stop 3 – Rue Montesquieu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd2c750badd10717c0e86ec0928f5fe2 = L.marker(
+                [45.7467, 4.8427],
+                {}
+            ).addTo(map_765194af156b3f7e05b3a9616e3a0a4a);
+        
+    
+        var popup_ba48a7a004ba29cc36aafa3aba9317af = L.popup({"maxWidth": 250});
+
+        
+            var i_frame_58405bf46f1f06dfb62e2587daf7981b = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxiPlN0b3AgNCDigJMgUnVlIFPDqWJhc3RpZW4gR3J5cGhlPC9iPjxicj4KICAgIFdpdG5lc3MgcmF3IGFjdGl2aXN0IGFydDogZmVtaW5pc3QgbWVzc2FnZXMsIGNsaW1hdGUgc2xvZ2FucywgYW5kIGV4cHJlc3NpdmUgZ3JhZmZpdGkuPGJyPgogICAgPGEgaHJlZj0iaHR0cHM6Ly9zdHJlZXQtYXJ0LWx5b24uY29tL2NhdGVnb3J5L2xpZXUvbHlvbi03ZS8iIHRhcmdldD0iX2JsYW5rIj5MZWFybiBtb3JlIGFib3V0IHRoaXMgYXJ0d29yazwvYT48YnI+CiAgICA8aW1nIHNyYz0iaHR0cHM6Ly90c2UyLm1tLmJpbmcubmV0L3RoP2lkPU9JUC5CODBSampaeFUyUENQNDk2b3dJM05BSGFKNCZwaWQ9QXBpIiB3aWR0aD0iMjAwIj4KICAgIA==" width="230" style="border:none !important;" height="270"></iframe>`)[0];
+            popup_ba48a7a004ba29cc36aafa3aba9317af.setContent(i_frame_58405bf46f1f06dfb62e2587daf7981b);
+        
+
+        marker_bd2c750badd10717c0e86ec0928f5fe2.bindPopup(popup_ba48a7a004ba29cc36aafa3aba9317af)
+        ;
+
+        
+    
+    
+            marker_bd2c750badd10717c0e86ec0928f5fe2.bindTooltip(
+                `<div>
+                     Stop 4 – Rue Sébastien Gryphe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
